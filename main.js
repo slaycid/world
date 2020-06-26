@@ -1,11 +1,3 @@
-/*
- * WebGL Water
- * http://madebyevan.com/webgl-water/
- *
- * Copyright 2011 Evan Wallace
- * Released under the MIT license
- */
-
 function text2html(text) {
   return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br>');
 }
