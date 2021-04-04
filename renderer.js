@@ -1,8 +1,8 @@
 var helperFunctions = '\
   const float IOR_AIR = 1.0;\
   const float IOR_WATER = 1.333;\
-  const vec3 abovewaterColor = vec3(0.640, 0.460, 1.00);\
-  const vec3 underwaterColor = vec3(0.640, 0.460, 1.00);\
+  const vec3 abovewaterColor = vec3(0.825, 0.500, 1.00);\
+  const vec3 underwaterColor = vec3(0.825, 0.500, 1.00);\
   const float poolHeight = 1.0;\
   uniform vec3 light;\
   uniform vec3 sphereCenter;\
