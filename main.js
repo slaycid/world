@@ -22,7 +22,7 @@ function init() {
   scene.add(new THREE.AmbientLight(0x404040)) 
   
   const loader = new THREE.OBJLoader()
-  loader.load('https://cdn.glitch.com/fcf3c007-b4eb-4250-ba6b-653fdab94ce3%2Fjapanese_temple.obj?1558792651869',
+  loader.load('123.obj',
               (obj) => {
                     let material = new THREE.PointsMaterial({ color: 0xFFFFFF, size: 0.25 })
                     mesh = new THREE.Points(obj.children[0].geometry, material)
