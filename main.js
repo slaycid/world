@@ -22,7 +22,7 @@ function init() {
   scene.add(new THREE.AmbientLight(0x404040)) 
   
   const loader = new THREE.OBJLoader()
-  loader.load('123.obj',
+  loader.load('1234.obj',
               (obj) => {
                     let material = new THREE.PointsMaterial({ color: 0xFFFFFF, size: 0.25 })
                     mesh = new THREE.Points(obj.children[0].geometry, material)
