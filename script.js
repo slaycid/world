@@ -40,6 +40,7 @@ var options = {
 };
 
 var gui = new dat.GUI();
+dat.GUI.toggleHide();
 
 var bloom = gui.addFolder("Bloom");
 bloom.add(options, "bloomStrength", 0.0, 5.0).name("bloomStrength").listen();
