@@ -30,9 +30,9 @@ var scene,
   backcard;
 var options = {
   exposure: 2.8,
-  bloomStrength: 0.8,
+  bloomStrength: 2,
   bloomThreshold: 0,
-  bloomRadius: 1.29,
+  bloomRadius: 1,
   color0: [197, 81, 245],
   color1: [65, 0, 170],
   color2: [255, 255, 255],
