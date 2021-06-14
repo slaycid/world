@@ -16,7 +16,7 @@ function drawScene() {
   
   for (let y = 0, y2 = data.height; y < y2; y++) {
     for (let x = 0, x2 = data.width; x < x2; x++) {
-      if (data.data[(y * 4 * data.width) + (x * 4) + 3] > 128) {
+      if (data.data[(y * 4 * data.width) + (x * 4) + 3] > 256) {
         const particle = {
           x0: x,
           y0: y,
