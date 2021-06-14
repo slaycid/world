@@ -35,8 +35,8 @@ var options = {
   bloomRadius: 1.29,
   color0: [197, 81, 245],
   color1: [65, 0, 170],
-  color2: [0, 150, 255],
-  isanimate: false,
+  color2: [255, 255, 255],
+  isanimate: true,
 };
 
 var gui = new dat.GUI();
