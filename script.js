@@ -8,7 +8,7 @@ var cardtemplateback = "back.png";
 var flower = "logo.png";
 var noise2 = "https://raw.githubusercontent.com/pizza3/asset/master/noise2.png";
 var color11 = "color11.png";
-var backtexture = "color3.jpg";
+var backtexture = "color33.jpg";
 var skullmodel = "https://raw.githubusercontent.com/pizza3/asset/master/skull5.obj";
 var voronoi = "https://raw.githubusercontent.com/pizza3/asset/master/rgbnoise2.png";
 
