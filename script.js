@@ -3,14 +3,14 @@ import { RenderPass } from "https://unpkg.com/three@0.120.0/examples/jsm/postpro
 import { UnrealBloomPass } from "https://unpkg.com/three@0.120.0/examples/jsm/postprocessing/UnrealBloomPass.js";
 import { OBJLoader } from "https://unpkg.com/three@0.120.0/examples/jsm/loaders/OBJLoader";
 import { OrbitControls } from "https://unpkg.com/three@0.120.0/examples/jsm/controls/OrbitControls";
-var cardtemplate = "/assets/card_front.png";
-var cardtemplateback = "/assets/card.png";
-var flower = "/assets/card_logo1.png";
-var noise2 = "/assets/noise.png";
-var color11 = "/assets/card_rim.png";
-var backtexture = "/assets/card_tex.png";
-var skullmodel = "/assets/skull.obj";
-var voronoi = "/assets/noise_rgb.png";
+var cardtemplate = "https://raw.githubusercontent.com/pizza3/asset/master/cardtemplate3.png";
+var cardtemplateback = "https://raw.githubusercontent.com/pizza3/asset/master/cardtemplateback4.png";
+var flower = "card_logo.png";
+var noise2 = "https://raw.githubusercontent.com/pizza3/asset/master/noise2.png";
+var color11 = "https://raw.githubusercontent.com/pizza3/asset/master/color11.png";
+var backtexture = "https://raw.githubusercontent.com/pizza3/asset/master/color3.jpg";
+var skullmodel = "https://raw.githubusercontent.com/pizza3/asset/master/skull5.obj";
+var voronoi = "https://raw.githubusercontent.com/pizza3/asset/master/rgbnoise2.png";
 
 
 var scene,
@@ -30,17 +30,16 @@ var scene,
   backcard;
 var options = {
   exposure: 2.8,
-  bloomStrength: 1,
+  bloomStrength: 0.8,
   bloomThreshold: 0,
-  bloomRadius: 1.2,
-  color0: [255, 255, 255],
-  color1: [0, 0, 0],
-  color2: [255, 255, 255],
-  isanimate: true,
+  bloomRadius: 1.29,
+  color0: [197, 81, 245],
+  color1: [65, 0, 170],
+  color2: [0, 150, 255],
+  isanimate: false,
 };
 
 var gui = new dat.GUI();
-dat.GUI.toggleHide();
 
 var bloom = gui.addFolder("Bloom");
 bloom.add(options, "bloomStrength", 0.0, 5.0).name("bloomStrength").listen();
