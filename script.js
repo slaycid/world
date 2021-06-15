@@ -30,12 +30,12 @@ var scene,
   backcard;
 var options = {
   exposure: 2.8,
-  bloomStrength: 1.5,
+  bloomStrength: 1,
   bloomThreshold: 0,
-  bloomRadius: 1,
+  bloomRadius: 1.2,
   color0: [255, 255, 255],
   color1: [0, 0, 0],
-  color2: [0, 0, 0],
+  color2: [255, 255, 255],
   isanimate: true,
 };
 
