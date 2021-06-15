@@ -3,14 +3,14 @@ import { RenderPass } from "https://unpkg.com/three@0.120.0/examples/jsm/postpro
 import { UnrealBloomPass } from "https://unpkg.com/three@0.120.0/examples/jsm/postprocessing/UnrealBloomPass.js";
 import { OBJLoader } from "https://unpkg.com/three@0.120.0/examples/jsm/loaders/OBJLoader";
 import { OrbitControls } from "https://unpkg.com/three@0.120.0/examples/jsm/controls/OrbitControls";
-var cardtemplate = "front.png";
-var cardtemplateback = "back.png";
-var flower = "logo.png";
-var noise2 = "https://raw.githubusercontent.com/pizza3/asset/master/noise2.png";
-var color11 = "https://raw.githubusercontent.com/pizza3/asset/master/color11.png";
+var cardtemplate = "/assets/card_front.png";
+var cardtemplateback = "/assets/card_back.png";
+var flower = "/assets/card_logo.png";
+var noise2 = "/assets/noise.png";
+var color11 = "/assets/card_rim.png";
 var backtexture = "https://raw.githubusercontent.com/pizza3/asset/master/color3.jpg";
-var skullmodel = "https://raw.githubusercontent.com/pizza3/asset/master/skull5.obj";
-var voronoi = "https://raw.githubusercontent.com/pizza3/asset/master/rgbnoise2.png";
+var skullmodel = "/assets/skull.obj";
+var voronoi = "/assets/noise_rgb.png";
 
 
 var scene,
