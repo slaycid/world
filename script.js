@@ -7,7 +7,7 @@ var cardtemplate = "/assets/card_front.png";
 var cardtemplateback = "https://raw.githubusercontent.com/pizza3/asset/master/cardtemplateback4.png";
 var flower = "/assets/card_logo1.png";
 var noise2 = "https://raw.githubusercontent.com/pizza3/asset/master/noise2.png";
-var color11 = "https://raw.githubusercontent.com/pizza3/asset/master/color11.png";
+var color11 = "card_rim1.png";
 var backtexture = "https://raw.githubusercontent.com/pizza3/asset/master/color3.jpg";
 var skullmodel = "https://raw.githubusercontent.com/pizza3/asset/master/skull5.obj";
 var voronoi = "https://raw.githubusercontent.com/pizza3/asset/master/rgbnoise2.png";
@@ -30,12 +30,12 @@ var scene,
   backcard;
 var options = {
   exposure: 2.8,
-  bloomStrength: 0.8,
+  bloomStrength: 1,
   bloomThreshold: 0,
-  bloomRadius: 1.29,
-  color0: [197, 81, 245],
-  color1: [65, 0, 170],
-  color2: [0, 150, 255],
+  bloomRadius: 1.2,
+  color0: [48, 255, 0],
+  color1: [0, 0, 0],
+  color2: [0, 0, 0],
   isanimate: false,
 };
 
