@@ -5,7 +5,7 @@ import { OBJLoader } from "https://unpkg.com/three@0.120.0/examples/jsm/loaders/
 import { OrbitControls } from "https://unpkg.com/three@0.120.0/examples/jsm/controls/OrbitControls";
 var cardtemplate = "/assets/card_front.png";
 var cardtemplateback = "https://raw.githubusercontent.com/pizza3/asset/master/cardtemplateback4.png";
-var flower = "/assets/card_logo.png";
+var flower = "/assets/card_logo1.png";
 var noise2 = "https://raw.githubusercontent.com/pizza3/asset/master/noise2.png";
 var color11 = "https://raw.githubusercontent.com/pizza3/asset/master/color11.png";
 var backtexture = "https://raw.githubusercontent.com/pizza3/asset/master/color3.jpg";
