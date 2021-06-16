@@ -8,8 +8,8 @@ var cardtemplate = "/assets/card_front.png";
 var flower = "/assets/card_logo.png";
 var color11 = "/assets/card_rim.png";
 var backtexture = "/assets/card_tex.png";
-var noise2 = "/assets/noise.png";
 var voronoi = "/assets/noise_rgb.png";
+var noise2 = "/assets/noise.png";
 var skullmodel = "/assets/skull.obj";
 
 var scene,
