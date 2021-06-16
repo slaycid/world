@@ -4,11 +4,11 @@ import { UnrealBloomPass } from "https://unpkg.com/three@0.120.0/examples/jsm/po
 import { OBJLoader } from "https://unpkg.com/three@0.120.0/examples/jsm/loaders/OBJLoader";
 import { OrbitControls } from "https://unpkg.com/three@0.120.0/examples/jsm/controls/OrbitControls";
 var cardtemplate = "/assets/card_front.png";
-var cardtemplateback = "/assets/card.png";
-var flower = "/assets/card_logo1.png";
+var cardtemplateback = "/assets/card_back.png";
+var flower = "/assets/card_logo.png";
 var noise2 = "/assets/noise.png";
 var color11 = "/assets/card_rim.png";
-var backtexture = "/assets/card_tex.png";
+var backtexture = "/assets/card_tex.jpeg";
 var skullmodel = "/assets/skull.obj";
 var voronoi = "/assets/noise_rgb.png";
 
