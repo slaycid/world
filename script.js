@@ -3,8 +3,8 @@ import { RenderPass } from "https://unpkg.com/three@0.120.0/examples/jsm/postpro
 import { UnrealBloomPass } from "https://unpkg.com/three@0.120.0/examples/jsm/postprocessing/UnrealBloomPass.js";
 import { OBJLoader } from "https://unpkg.com/three@0.120.0/examples/jsm/loaders/OBJLoader";
 import { OrbitControls } from "https://unpkg.com/three@0.120.0/examples/jsm/controls/OrbitControls";
-var cardtemplate = "/assets/card_front3.png";
-var cardtemplateback = "/assets/card_back3.png";
+var cardtemplate = "/assets/card_front5.png";
+var cardtemplateback = "/assets/card_back5.png";
 var flower = "/assets/card_logo.png";
 var noise2 = "/assets/noise.png";
 var color11 = "/assets/card_rim3.png";
