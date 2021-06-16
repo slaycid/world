@@ -3,15 +3,14 @@ import { RenderPass } from "https://unpkg.com/three@0.120.0/examples/jsm/postpro
 import { UnrealBloomPass } from "https://unpkg.com/three@0.120.0/examples/jsm/postprocessing/UnrealBloomPass.js";
 import { OBJLoader } from "https://unpkg.com/three@0.120.0/examples/jsm/loaders/OBJLoader";
 import { OrbitControls } from "https://unpkg.com/three@0.120.0/examples/jsm/controls/OrbitControls";
+var cardtemplateback = "/assets/card_back.png";
 var cardtemplate = "/assets/card_front.png";
-var cardtemplateback = "/assets/card.png";
-var flower = "/assets/card_logo1.png";
-var noise2 = "/assets/noise.png";
+var flower = "/assets/card_logo.png";
 var color11 = "/assets/card_rim.png";
 var backtexture = "/assets/card_tex.png";
-var skullmodel = "/assets/skull.obj";
+var noise2 = "/assets/noise.png";
 var voronoi = "/assets/noise_rgb.png";
-
+var skullmodel = "/assets/skull.obj";
 
 var scene,
   sceneRTT,
